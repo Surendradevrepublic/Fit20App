@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  Fit20App
+//
+//  Created by surendra kunwar on 6/15/15.
+//  Copyright (c) 2015 Devrepublic. All rights reserved.
+//
+
+#ifndef Fit20App_PrefixHeader_pch
+#define Fit20App_PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "util.h"
+#import "AppDelegate.h"
+
+
+
+
+#endif

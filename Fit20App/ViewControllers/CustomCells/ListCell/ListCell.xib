@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="customCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="ListCell" id="5yt-ox-c0Q" userLabel="ListCell" customClass="ListCell">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" id="di4-Ge-UBz">
+                    <rect key="frame" x="24" y="0.0" width="305" height="65"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="HbP-xd-uis">
+                            <rect key="frame" x="0.0" y="0.0" width="305" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="human-circle-small.png" id="lOc-2b-wk4" customClass="AsyncImageView">
+                                    <rect key="frame" x="15" y="7" width="45" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" text="ios" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MaU-Ef-U60">
+                                    <rect key="frame" x="75" y="32" width="155" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" text="daisy" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4MM-aS-Nbx">
+                                    <rect key="frame" x="245" y="39" width="50" height="10"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="two-peolpe-white.png" id="SoA-0P-D4B">
+                                    <rect key="frame" x="255" y="7" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" text="Foram" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fp7-7S-N4z">
+                                    <rect key="frame" x="75" y="7" width="155" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.57647058819999997" green="0.76470588240000004" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="W2l-ki-uJn">
+                            <rect key="frame" x="125" y="55" width="10" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.094117656349999995" green="0.32156863810000003" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VHh-KU-sOf">
+                            <rect key="frame" x="147" y="55" width="10" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.91764712329999998" green="0.92941182850000004" blue="0.1215686351" alpha="1" colorSpace="deviceRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LlD-Zu-tbd">
+                            <rect key="frame" x="165" y="55" width="10" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.93725496529999996" green="0.44705885649999999" blue="0.078431375319999996" alpha="1" colorSpace="deviceRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" id="V1t-TC-LYz">
+                    <rect key="frame" x="344" y="0.0" width="305" height="65"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="dya-4L-m8q">
+                            <rect key="frame" x="0.0" y="0.0" width="305" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="human-circle-small.png" id="hsC-yx-Yz1" customClass="AsyncImageView">
+                                    <rect key="frame" x="15" y="7" width="45" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" text="Foram" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0RA-HP-d2f">
+                                    <rect key="frame" x="75" y="7" width="155" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" text="ios" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lTG-r1-L9p">
+                                    <rect key="frame" x="75" y="32" width="155" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" text="daisy" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9N4-pe-Se5">
+                                    <rect key="frame" x="245" y="39" width="50" height="10"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="two-peolpe-white.png" id="69Z-2n-qG3">
+                                    <rect key="frame" x="255" y="7" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.57647058819999997" green="0.76470588240000004" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7XL-Ab-SBT">
+                            <rect key="frame" x="125" y="55" width="10" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.094117656349999995" green="0.32156863810000003" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="85m-lS-JVk">
+                            <rect key="frame" x="147" y="55" width="10" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.91764712329999998" green="0.92941182850000004" blue="0.1215686351" alpha="1" colorSpace="deviceRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oK1-Xe-xHz">
+                            <rect key="frame" x="167" y="55" width="10" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.83529411760000005" green="0.28627450980000002" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" id="BUI-4G-KgZ">
+                    <rect key="frame" x="664" y="0.0" width="305" height="65"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="WRV-iH-fDc">
+                            <rect key="frame" x="0.0" y="0.0" width="305" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="human-circle-small.png" id="0K9-Ng-CBB" customClass="AsyncImageView">
+                                    <rect key="frame" x="15" y="7" width="45" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" text="Foram" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SHl-8G-bhm">
+                                    <rect key="frame" x="75" y="7" width="155" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" text="ios" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fme-Bi-g4b">
+                                    <rect key="frame" x="75" y="32" width="155" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" text="daisy" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9c4-X5-ERf">
+                                    <rect key="frame" x="245" y="39" width="50" height="10"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="two-peolpe-white.png" id="fYO-pC-9cB">
+                                    <rect key="frame" x="255" y="7" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.57647058819999997" green="0.76470588240000004" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kKj-19-a3p">
+                            <rect key="frame" x="125" y="55" width="10" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.094117656349999995" green="0.32156863810000003" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YaB-bG-okJ">
+                            <rect key="frame" x="147" y="55" width="10" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.91764712329999998" green="0.92941182850000004" blue="0.1215686351" alpha="1" colorSpace="deviceRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Pbh-GL-fBX">
+                            <rect key="frame" x="167" y="55" width="10" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.83529411760000005" green="0.28627450980000002" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="part1" destination="di4-Ge-UBz" id="eMp-8z-PJC"/>
+                <outlet property="part2" destination="V1t-TC-LYz" id="99X-4q-hxQ"/>
+                <outlet property="part3" destination="BUI-4G-KgZ" id="Ecy-qx-r7r"/>
+                <outlet property="v1" destination="HbP-xd-uis" id="5cl-c3-Zya"/>
+                <outlet property="v1ImgProfile" destination="lOc-2b-wk4" id="tZf-Lo-pG8"/>
+                <outlet property="v1ImgSubProfile" destination="SoA-0P-D4B" id="z52-Nk-V8R"/>
+                <outlet property="v1lblDetail" destination="MaU-Ef-U60" id="yth-Wu-K63"/>
+                <outlet property="v1lblName" destination="Fp7-7S-N4z" id="7QH-ts-cwz"/>
+                <outlet property="v1lblNameSubName" destination="4MM-aS-Nbx" id="caD-p0-S2K"/>
+                <outlet property="v1lblStatus1" destination="W2l-ki-uJn" id="Mhk-yh-y7G"/>
+                <outlet property="v1lblStatus2" destination="VHh-KU-sOf" id="EnI-Q5-sEx"/>
+                <outlet property="v1lblStatus3" destination="LlD-Zu-tbd" id="C6D-gE-Iiy"/>
+                <outlet property="v2" destination="dya-4L-m8q" id="TsU-0k-M1i"/>
+                <outlet property="v2ImgProfile" destination="hsC-yx-Yz1" id="SY9-3s-7T6"/>
+                <outlet property="v2ImgSubProfile" destination="69Z-2n-qG3" id="d6I-0o-xVI"/>
+                <outlet property="v2lblDetail" destination="lTG-r1-L9p" id="fiP-5M-4bS"/>
+                <outlet property="v2lblName" destination="0RA-HP-d2f" id="UZc-dz-Uwq"/>
+                <outlet property="v2lblNameSubName" destination="9N4-pe-Se5" id="my7-jw-mZw"/>
+                <outlet property="v2lblStatus1" destination="7XL-Ab-SBT" id="C6Y-KS-5FC"/>
+                <outlet property="v2lblStatus2" destination="85m-lS-JVk" id="eCw-8P-ozh"/>
+                <outlet property="v2lblStatus3" destination="oK1-Xe-xHz" id="gvL-Ue-ItT"/>
+                <outlet property="v3" destination="WRV-iH-fDc" id="kOQ-0z-s6e"/>
+                <outlet property="v3ImgProfile" destination="0K9-Ng-CBB" id="Hkz-Mu-vBH"/>
+                <outlet property="v3ImgSubProfile" destination="fYO-pC-9cB" id="zcB-wG-NQX"/>
+                <outlet property="v3lblDetail" destination="Fme-Bi-g4b" id="6L4-HV-qqf"/>
+                <outlet property="v3lblName" destination="SHl-8G-bhm" id="vEx-Po-pSj"/>
+                <outlet property="v3lblNameSubName" destination="9c4-X5-ERf" id="MNy-re-Bjr"/>
+                <outlet property="v3lblStatus1" destination="kKj-19-a3p" id="Htp-Sz-4Wb"/>
+                <outlet property="v3lblStatus2" destination="YaB-bG-okJ" id="1aJ-gQ-T2a"/>
+                <outlet property="v3lblStatus3" destination="Pbh-GL-fBX" id="mLO-y0-jvd"/>
+            </connections>
+            <point key="canvasLocation" x="584" y="231.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="human-circle-small.png" width="49" height="49"/>
+        <image name="two-peolpe-white.png" width="30" height="29"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

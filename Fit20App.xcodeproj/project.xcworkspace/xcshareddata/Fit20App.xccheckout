@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>13C57BC7-93A0-4277-84B6-743B47D4A014</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Fit20App</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>46CF1C53EA3F1B6CF7DE217F880DC3B882008E45</key>
+		<string>http://git.devrepublic.nl/devrepo/fit20_ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Fit20App/Fit20App.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>46CF1C53EA3F1B6CF7DE217F880DC3B882008E45</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://git.devrepublic.nl/devrepo/fit20_ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>46CF1C53EA3F1B6CF7DE217F880DC3B882008E45</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>46CF1C53EA3F1B6CF7DE217F880DC3B882008E45</string>
+			<key>IDESourceControlWCCName</key>
+			<string>fit20App</string>
+		</dict>
+	</array>
+</dict>
+</plist>
